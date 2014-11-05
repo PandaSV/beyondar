@@ -314,6 +314,8 @@ public class BeyondarObject implements Plugable<BeyondarObjectPlugin> {
 	 */
 	protected Renderable createRenderable() {
 		return SquareRenderable.getInstance();
+//		return SimpleCircleRenderable.getInstance();
+//		return SimpleSquareRenderable.getInstance();
 	}
 
 	/**
